@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>movie-app</title>
+  </head>
+  <body>
+    <div id="backdrop" class="backdrop"></div>
+    <div class="modal" id="add-modal">
+      <div class="modal_content">
+        <label for="title">Movie title</label>
+        <input type="text" id="title" />
+        <label for="url">Image URL</label>
+        <input type="text" id="url" />
+        <label for="rating">Your Rating</label>
+        <input type="number" id="rating" step="1" max="5" min="1" />
+        <label for="status">Movie Status</label>
+        <input type="text" id="status" />
+      </div>
+      <div class="modal_actions">
+        <button id="cancel" class="btn btn--passive">cancel</button>
+        <button id="add-movie" class="btn btn--succes">add</button>
+      </div>
+    </div>
+
+    <header>
+      <div class="left_heading">
+        <img
+          src="https://etnomedia.tv/assets/images/logo-white.png"
+          alt="logo"
+          class="logo"
+        />
+        <nav>
+          <a href="#">Фильмы</a>
+          <a href="#">Сериалы</a>
+          <a href="#">Мультфильмы</a>
+          <a href="#">Новости</a>
+          <a href="#">Windows</a>
+          <a href="#">Календарь</a>
+        </nav>
+      </div>
+      <div class="header_icons">
+        <img src="./assets/icons/search.svg" alt="search" class="icon" />
+        <img src="./assets/icons/avatar.svg" alt="avatar" class="icon" />
+        <button id="openModalButton">Добавить</button>
+      </div>
+    </header>
+    <main>
+      <article>
+        <h1>Акыркы тасмалар</h1>
+        <section class="cards_container"></section>
+      </article>
+    </main>
+
+    <footer>
+      <section class="footer_block">
+        <h2>О нас</h2>
+        <p>О компании</p>
+        <p>Контакты</p>
+        <p>Пользовательское соглашение</p>
+        <p>Политика конфиденциальности</p>
+      </section>
+      <section class="footer_block">
+        <h2>Помощь</h2>
+        <p>F.A.Q.</p>
+        <p>Сообщить об ошибке</p>
+      </section>
+      <section class="footer_block">
+        <h2>Социальные сети</h2>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>Telegram</p>
+      </section>
+      <section class="footer_block">
+        <h2>Скачать приложение</h2>
+        <div class="footer_applications">
+          <img
+            src="https://www.etnomedia.tv/assets/svgs/google-play.svg"
+            alt=""
+          />
+          <img src="https://www.etnomedia.tv/assets/svgs/appstore.svg" alt="" />
+          <img
+            src="https://www.etnomedia.tv/assets/svgs/microsoft-store.svg"
+            alt=""
+          />
+        </div>
+      </section>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
