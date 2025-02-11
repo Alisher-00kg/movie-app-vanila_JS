@@ -36,27 +36,27 @@ const movies = [
     rating: 5.7,
   },
   {
-    movieImage: "https://shorturl.at/383HI",
-    movieTitle: "Чон кыз",
+    movieImage: "https://tinyurl.com/2tzsf6hx",
+    movieTitle: "Форсаж",
     movieStatus: "Абонемент",
     movieId: 6,
     rating: 4.1,
   },
 
   {
-    movieImage: "https://shorturl.at/mjYe8",
-    movieTitle: "Жаны кошуна",
+    movieImage: "https://tinyurl.com/5dp34pad",
+    movieTitle: "Хороший, плохой, ужасный",
     movieStatus: "Аренда",
     movieId: 7,
     rating: 4.4,
   },
 
   {
-    movieImage: "https://shorturl.at/5trnL",
-    movieTitle: "Такси",
+    movieImage: "https://tinyurl.com/bc4p9c69",
+    movieTitle: "Интерстеллар",
     movieStatus: "Бесплатно",
     movieId: 8,
-    rating: 6.5,
+    rating: 8.5,
   },
 ];
 
